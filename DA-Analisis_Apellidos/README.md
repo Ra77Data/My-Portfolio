@@ -4,8 +4,6 @@ El proyecto en este repositorio analiza y visualiza la distribución geográfica
 
 ### Funcionalidad
 
-El script realiza las siguientes acciones:
-
 1. **Carga de datos:** Importa un conjunto de datos con información sobre la frecuencia de los apellidos en cada provincia argentina.
 2. **Procesamiento de datos:**
     - Agrupa los datos por provincia y apellido, calculando el porcentaje promedio de la población que lleva cada apellido en cada provincia.
