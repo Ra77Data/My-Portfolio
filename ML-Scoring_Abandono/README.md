@@ -36,5 +36,7 @@ Este proyecto tiene diversas aplicaciones prácticas para las empresas:
 
 
 Se puede observar el analisis terminado mediante el dashboard publicado en Tableau desde el siguiente link: https://public.tableau.com/app/profile/cesar.martin.gonzalez/viz/DashboardEmpleadosenRiesgo/Dashboard1
+
+
 En este tablero de control se pueden realizar diversos analisis con los datos obtenidos y las predicciones del modelo implementado.
 
