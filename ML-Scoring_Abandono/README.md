@@ -24,7 +24,7 @@ El proyecto se desarrolló siguiendo las siguientes etapas:
 
 ### Resultados
 
-El modelo final seleccionado fue [Nombre del Modelo]. Este modelo logró un [Métrica de Rendimiento] de [Valor] en el conjunto de datos de prueba. Se proporciona un archivo con el scoring de abandono para cada empleado, permitiendo identificar aquellos con mayor riesgo de abandonar la empresa.
+El modelo final seleccionado fue Regresión Logística. Este modelo logró un ROC AUC de 0,8187 en el conjunto de datos de prueba. Se proporciona un archivo con el scoring de abandono para cada empleado, permitiendo identificar aquellos con mayor riesgo de abandonar la empresa.
 
 ### Aplicaciones
 
@@ -36,4 +36,5 @@ Este proyecto tiene diversas aplicaciones prácticas para las empresas:
 
 
 Se puede observar el analisis terminado mediante el dashboard publicado en Tableau desde el siguiente link: https://public.tableau.com/app/profile/cesar.martin.gonzalez/viz/DashboardEmpleadosenRiesgo/Dashboard1
+En este tablero de control se pueden realizar diversos analisis con los datos obtenidos y las predicciones del modelo implementado.
 
