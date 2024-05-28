@@ -1,6 +1,6 @@
 Análisis de la Distribución de Apellidos en Argentina
 
-Este repositorio contiene un script de Python (`dist_apellidos_arg_ii.py`) que analiza y visualiza la distribución geográfica de los apellidos más comunes en Argentina.
+El proyecto en este repositorio analiza y visualiza la distribución geográfica de los apellidos más comunes en Argentina.
 
 ### Funcionalidad
 
