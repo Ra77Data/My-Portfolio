@@ -1,2 +1,5 @@
-En este proyecto trabaje con un set de datos sobre trabajadores del instituto de ciencia y tecnologia de la Republica Argentina.
-Se extraen concluciones sobre la distribución de la edades de los mismos a travez de multiples visualizaciones.
+Exploración de Datos de Investigadores del CONICET
+Este proyecto de Python realiza un análisis exploratorio de datos sobre investigadores del CONICET. Se visualiza la distribución de edades de los investigadores, tanto de forma conjunta como desagregada por sexo.
+
+Resultados
+Se presentan gráficos que muestran la distribución de edades de los investigadores. Se observará la frecuencia de cada edad, tanto en general como separada por hombres y mujeres.
