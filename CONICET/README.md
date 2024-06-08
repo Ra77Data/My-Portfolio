@@ -13,6 +13,6 @@ Se generaron gráficos que muestran la distribución de edades de los investigad
 
 **Conclusiones Preliminares:**
 
-El análisis del conjunto de datos proporcionado revela que las edades más comunes entre los investigadores del CONICET son:
+## El análisis del conjunto de datos proporcionado revela que las edades más comunes entre los investigadores del CONICET son:
 Mujeres: 34, 39 y 40 años.
 Hombres: 33, 34 y 35 años.
