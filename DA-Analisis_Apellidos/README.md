@@ -17,7 +17,7 @@ El proyecto en este repositorio analiza y visualiza la distribución geográfica
 
 ### Archivos
 
-* `dist_apellidos_arg_ii.py`:  Script principal de Python.
+* `dist_apellidos_arg`:  Notebook del proyecto.
 * `apellidos_mas_frecuentes_provincia.csv`:  Dataset con la frecuencia de apellidos por provincia. 
 * `apellidos_cantidad_personas_provincia.csv`: Dataset con la cantidad de personas por apellido en cada provincia.
 * `argentina-with-regions_1413.geojson`: Archivo GeoJSON con la información geográfica de las provincias argentinas.
