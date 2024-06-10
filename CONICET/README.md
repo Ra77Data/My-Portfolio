@@ -11,8 +11,4 @@ Este proyecto de Python realiza un análisis exploratorio de datos sobre investi
 ## Resultados
 Se generaron gráficos que muestran la distribución de edades de los investigadores. Se observará la frecuencia de cada edad, tanto en general como separada por hombres y mujeres. Los gráficos se mostrarán directamente en tu entorno de trabajo.
 
-**Conclusiones Preliminares:**
 
-## El análisis del conjunto de datos proporcionado revela que las edades más comunes entre los investigadores del CONICET son:
-## Mujeres: 34, 39 y 40 años.
-## Hombres: 33, 34 y 35 años.
