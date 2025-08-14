@@ -12,8 +12,6 @@ Para visualizar los insights más importantes de este análisis, incluyendo el p
 
 **[➡️ Ver Dashboard en Tableau Public](https://public.tableau.com/app/profile/cesar.martin.gonzalez/viz/DashboardEmpleadosenRiesgo/Dashboard1)**
 
-![Tableau Dashboard Preview](https://i.imgur.com/8a6B2c3.png)
-
 ---
 
 ## 🚀 Metodología y Flujo de Trabajo
