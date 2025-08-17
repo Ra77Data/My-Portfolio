@@ -1,3 +1,68 @@
+# 🇦🇷 Analysis of Surname Distribution in Argentina (2021)
+
+## 📜 Project Summary
+
+This project conducts an exploratory analysis of the distribution and frequency of surnames in Argentina, using public data from the National Registry of Persons (RENAPER) for the year 2021.
+
+The objective is to identify the most common surnames in the country, understand their demographic weight, and uncover interesting facts about the diversity of surnames present in the Argentine population.
+
+## 🚀 Key Findings
+
+The analysis reveals several key insights into Argentine demographics:
+
+* **Surname Diversity:** A total of **348,288 unique surnames** were identified in the dataset.
+* **Top 10 Surnames:** The most common surnames in Argentina are:
+    1.  GONZALEZ
+    2.  RODRIGUEZ
+    3.  GOMEZ
+    4.  FERNANDEZ
+    5.  LOPEZ
+    6.  MARTINEZ
+    7.  DIAZ
+    8.  PEREZ
+    9.  SANCHEZ
+    10. ROMERO
+* **Demographic Concentration:** These 10 surnames represent **9.36%** of the total population registered in the dataset.
+* **Curious Surnames:** A variety of uncommon and striking surnames were found, such as **"ROCK", "PANA", "RAMBO", "BERA"** and **"CUMBIA"**, each with a surprisingly high frequency.
+
+---
+
+## 🛠️ Methodology
+
+The analysis was carried out in a Jupyter notebook (`Dist_Apellidos_Arg.ipynb`) following these steps:
+
+1.  **Loading and Exploration:** The `distribucion-apellidos-2021.csv` dataset was loaded with `pandas` for an initial inspection of its structure and data types.
+2.  **Frequency Analysis:** The DataFrame was filtered to isolate the 10 most common surnames, and aggregate metrics were calculated, such as the percentage of the population they represent.
+3.  **Data Visualization:** `matplotlib` and `seaborn` were used to create a horizontal bar chart that facilitates the comparison of the frequency of the most popular surnames.
+4.  **Additional Analysis:** The data was explored to find and quantify unique and curious surnames.
+
+## 🗂️ Repository Structure
+
+* `distribucion-apellidos-2021.csv`: The original dataset from RENAPER.
+* `Dist_Apellidos_Arg.ipynb`: Jupyter notebook with all the analysis code and visualizations.
+* `README.md`: This file.
+
+## 🚀 Getting Started
+
+To run this analysis in your own environment:
+
+1.  **Clone the repository:**
+    ```bash
+    git clone [https://github.com/Ra77Data/My-Portfolio.git](https://github.com/Ra77Data/My-Portfolio.git)
+    cd My-Portfolio/Dist_Apellidos_Arg
+    ```
+
+2.  **Install dependencies:**
+    ```bash
+    pip install pandas matplotlib seaborn
+    ```
+
+3.  **Run the notebook:**
+    Open and run the `Dist_Apellidos_Arg.ipynb` file.
+
+---
+---
+
 # 🇦🇷 Análisis de la Distribución de Apellidos en Argentina (2021)
 
 ## 📜 Resumen del Proyecto
