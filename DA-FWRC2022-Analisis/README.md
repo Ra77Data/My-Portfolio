@@ -1,3 +1,82 @@
+# 🏆 Statistical Analysis of the FIFA World Cup 2022
+
+## 📜 Project Goal
+
+This project goes beyond individual match results to create a **consolidated statistical performance profile** for each national team that participated in the 2022 World Cup. The objective is to aggregate data from all matches played by a team to analyze its overall performance in the tournament and determine which teams led in key game metrics, such as offense, defense, and ball control.
+
+## 🚀 Key Findings
+
+The analysis revealed that a select group of teams consistently dominated most statistical categories.
+
+* **Most Outstanding Teams:** By counting the times each team ranked #1 in the 42 analyzed metrics, the clear leaders were:
+    1.  **Croatia:** Leader in 12 statistics.
+    2.  **Morocco:** Leader in 11 statistics.
+    3.  **Argentina:** Leader in 10 statistics.
+    4.  **France:** Leader in 4 statistics.
+
+### 🇦🇷 Analysis of the Champion: Argentina
+
+A deeper analysis of the world champion, Argentina, demonstrates their dominance and consistency throughout the tournament:
+
+* **Absolute Leader in 10 Key Categories:** Argentina positioned itself as the best team in the tournament in offensive and pressure metrics, including:
+    * Total goals and goals from inside the box.
+    * Shots on target.
+    * Fouls received.
+    * Corner kicks and free kicks.
+    * Penalties converted.
+    * Forced recoveries and defensive pressures applied.
+
+* **Presence Among the Elite:** Of the 42 statistics analyzed, **Argentina was in the Top 4 in 34 of them**, proving to be one of the most complete and consistent teams of the World Cup.
+
+---
+
+## 🛠️ Methodology
+
+The project was developed in two main phases across two Jupyter notebooks:
+
+1.  **Data Cleaning and Preparation (`FIFAWC2022.ipynb`):**
+    * The `Fifa_world_cup_matches.csv` dataset, containing detailed data for each match, was loaded.
+    * Columns irrelevant to the statistical analysis were removed (e.g., `date`, `hour`, `category`).
+    * Possession columns (expressed as text percentages) were converted to a numerical format (float) to enable calculations.
+    * The cleaned dataset was saved as `df_fifawc2022.csv`.
+
+2.  **Consolidation and Team-Based Analysis (`FIFAWC2022-2.ipynb`):**
+    * The `df_fifawc2022.csv` file was loaded.
+    * A script was created to transform individual match data into a consolidated summary by team, aggregating the statistics for each nation across all their games.
+    * With the new consolidated DataFrame, the teams were ranked in each of the 42 metrics to identify the tournament leaders.
+
+## 🗂️ Repository Structure
+
+* `Fifa_world_cup_matches.csv`: Original dataset with statistics from the 64 matches.
+* `df_fifawc2022.csv`: Intermediate dataset, resulting from the cleaning in the first notebook.
+* `FIFAWC2022.ipynb`: Notebook with the data cleaning and preprocessing steps.
+* `FIFAWC2022-2.ipynb`: Notebook with the main analysis, team data consolidation, and statistical rankings.
+* `README.md`: This file.
+
+## 🚀 Getting Started
+
+To run this project in your local environment, follow these steps:
+
+1.  **Clone the repository:**
+    ```bash
+    git clone [https://github.com/Ra77Data/My-Portfolio.git](https://github.com/Ra77Data/My-Portfolio.git)
+    cd My-Portfolio/FIFAWC2022
+    ```
+
+2.  **Install dependencies:**
+    This project primarily uses the `pandas` library.
+    ```bash
+    pip install pandas
+    ```
+
+3.  **Run the notebooks:**
+    To replicate the results, run the notebooks in the following order:
+    1.  `FIFAWC2022.ipynb`
+    2.  `FIFAWC2022-2.ipynb`
+
+---
+---
+
 # 🏆 Análisis Estadístico de la Copa Mundial de la FIFA 2022
 
 ## 📜 Objetivo del Proyecto
