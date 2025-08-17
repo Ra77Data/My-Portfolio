@@ -1,3 +1,68 @@
+# 📊 Age Structure Analysis of CONICET Researchers (2022)
+
+## 📜 Project Summary
+
+This project conducts a demographic analysis of the age distribution of researchers at the **National Scientific and Technical Research Council (CONICET)** of Argentina, using public data from the year 2022.
+
+The objective is to understand the age structure of the scientific research career within the country's main science organization. The analysis segments researchers by their category (from Assistant to Superior) to visualize and quantify how age correlates with advancement in a scientific career.
+
+## 🚀 Main Findings
+
+The analysis reveals a well-defined age structure and a clear progression as the hierarchy in the research career increases.
+
+* **Overall Average Age:** The average age of a CONICET researcher in 2022 is **47.7 years**.
+
+* **Correlation between Age and Category:** A strong positive correlation is observed between the researcher's category and their age. Initial categories, such as "Assistant Researcher," group the youngest professionals, while the "Superior Researcher" category is composed of the most experienced and older scientists.
+
+* **Statistical Summary by Category:** Below is the statistical detail of age for each researcher category:
+
+| researcher_category | Count | Mean | Std. Dev. | Min | 25% | 50% (Median) | 75% | Max |
+| :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
+| **Assistant Researcher** | 12095 | 40.12 | 4.88 | 29.0 | 37.0 | 40.0 | 43.0 | 66.0 |
+| **Adjunct Researcher** | 9845 | 47.79 | 5.86 | 34.0 | 44.0 | 47.0 | 51.0 | 78.0 |
+| **Independent Researcher** | 4872 | 56.41 | 6.84 | 41.0 | 51.0 | 56.0 | 61.0 | 88.0 |
+| **Principal Researcher** | 2102 | 65.02 | 7.21 | 48.0 | 60.0 | 65.0 | 70.0 | 91.0 |
+| **Superior Researcher** | 309 | 73.08 | 7.02 | 55.0 | 68.0 | 73.0 | 78.0 | 91.0 |
+
+---
+
+## 🛠️ Methodology
+
+The analysis was carried out using Python in a Jupyter notebook (`CONICET_edades.ipynb`), following these steps:
+
+1.  **Data Loading and Cleaning:** The `personas_2022.csv` dataset was loaded using `pandas`. An initial cleaning was performed, removing rows where the researcher category was null to focus the analysis exclusively on career personnel.
+2.  **General Descriptive Analysis:** The overall mean age was calculated, and a histogram was generated to visualize the distribution of all personnel.
+3.  **Segmented Analysis by Category:** The data was grouped by `categoria_investigador` to:
+    * Generate comparative visualizations (Box Plots and Violin Plots) showing the age distribution at each level.
+    * Calculate detailed descriptive statistics (mean, median, quartiles, etc.) for each category.
+
+## 🗂️ Repository Structure
+
+* `personas_2022.csv`: The original dataset with CONICET personnel data.
+* `CONICET_edades.ipynb`: Jupyter notebook with the complete analysis code and visualizations.
+* `README.md`: This file.
+
+## 🚀 Getting Started
+
+To run this analysis in your own environment:
+
+1.  **Clone the repository:**
+    ```bash
+    git clone [https://github.com/Ra77Data/My-Portfolio.git](https://github.com/Ra77Data/My-Portfolio.git)
+    cd My-Portfolio/CONICET_edades
+    ```
+
+2.  **Install dependencies:**
+    ```bash
+    pip install pandas matplotlib seaborn
+    ```
+
+3.  **Run the notebook:**
+    Open and run the `CONICET_edades.ipynb` file.
+
+---
+---
+
 # 📊 Análisis de la Estructura Etaria de Investigadores del CONICET (2022)
 
 ## 📜 Resumen del Proyecto
