@@ -1,3 +1,84 @@
+# 🤖 Employee Churn Prediction Model
+
+## 📜 Project Summary
+
+This project addresses one of the most significant challenges for the Human Resources area: employee turnover. The main objective is to develop a Machine Learning model capable of predicting the probability of an employee leaving the company.
+
+Beyond prediction, a deep analysis is carried out to identify the profiles of employees at higher risk and, fundamentally, to **quantify the economic impact** that this talent drain represents for the organization. The final result is a scoring tool that allows the company to take proactive and strategic actions for talent retention.
+
+## 📊 Interactive Dashboard in Tableau
+
+To visualize the most important insights from this analysis, including the profile of at-risk employees and the economic impact, I have created an interactive dashboard.
+
+**[➡️ View Dashboard on Tableau Public](https://public.tableau.com/app/profile/cesar.martin.gonzalez/viz/DashboardEmpleadosenRiesgo/Dashboard1)**
+
+---
+
+## 🚀 Methodology and Workflow
+
+The project is structured in two main phases, each contained in its own Jupyter notebook.
+
+### 1. Exploratory and Business Analysis (`Analisis_de_Abandono.ipynb`)
+
+In this initial phase, the focus was on understanding the data and extracting key business insights.
+
+* **Data Analysis (EDA):** Variables were explored to identify patterns, distributions, and correlations. A thorough cleaning was performed, handling null values and removing irrelevant variables (e.g., `mayor_edad`, `horas_quincena`).
+* **Problem Quantification:** The **churn rate was determined to be 16.1%**.
+* **Employee Profile:** A common profile was identified among employees who leave: low education level, single, with a high load of overtime, and notably, a high incidence in the **Sales Representative** position.
+* **Economic Impact Analysis:** The annual cost of employee turnover was calculated, estimating a loss of **$2.7 million** in the last year. Additionally, the potential savings from reducing the churn rate by different percentages were projected (e.g., a saving of ~$271k by reducing churn by 10%).
+
+### 2. Model Building and Evaluation (`Modelo_ML_Upgrade_II.ipynb`)
+
+With the data cleaned and enriched, the modeling phase proceeded.
+
+* **Preprocessing:** Categorical variables were transformed into a numerical format using `OneHotEncoder` and features were scaled with `StandardScaler`.
+* **Model Training:** The data was split into training (70%) and testing (30%) sets. A **Logistic Regression** model was chosen for its interpretability and good performance.
+* **Optimization and Results:** `GridSearchCV` was used to find the best hyperparameters. The final model achieved robust performance, with a **ROC AUC of 0.82**. This represents a **22.9% improvement** over an initial baseline model.
+* **Scoring Generation:** Finally, the trained model was used to generate a score (`scoring_abandono`) for each employee, indicating their probability of leaving.
+
+---
+
+## 🛠️ Project Structure
+
+* `AbandonoEmpleados.csv`: The original dataset and starting point of the analysis.
+* `Analisis_de_Abandono.ipynb`: Notebook with exploratory analysis, data cleaning, and business impact analysis.
+* `df_abandono.csv`: The resulting dataset from the first notebook, clean and ready for modeling.
+* `Modelo_ML_Upgrade_II.ipynb`: Notebook with the construction, training, and evaluation of the Machine Learning model.
+* `abandono_con_scoring2.xlsx`: Final file with the churn probability score for each employee.
+* `README.md`: This file.
+
+## 🚀 Getting Started
+
+To run this project in your local environment, follow these steps:
+
+1.  **Clone the repository:**
+    ```bash
+    git clone [https://github.com/Ra77Data/My-Portfolio.git](https://github.com/Ra77Data/My-Portfolio.git)
+    cd My-Portfolio/ML-Scoring_Abandono
+    ```
+
+2.  **Install dependencies:**
+    Make sure you have the following Python libraries installed:
+    ```bash
+    pip install pandas numpy matplotlib scikit-learn
+    ```
+
+3.  **Run the notebooks:**
+    To replicate the results, run the notebooks in the following order:
+    1.  `Analisis_de_Abandono.ipynb`
+    2.  `Modelo_ML_Upgrade_II.ipynb`
+
+## 💡 Strategic Applications
+
+The results of this model allow the company to:
+
+* **Retain Talent:** Proactively identify employees at high risk of leaving to implement personalized retention plans.
+* **Optimize Investment:** Focus HR resources on profiles with the greatest economic impact and highest probability of churn.
+* **Improve Workplace Climate:** Use insights about the reasons for leaving (e.g., overtime, low salary, position) to make strategic decisions that improve working conditions.
+
+---
+---
+
 # 🤖 Modelo Predictivo de Abandono de Empleados
 
 ## 📜 Resumen del Proyecto
@@ -75,4 +156,3 @@ Los resultados de este modelo permiten a la empresa:
 * **Fidelizar Talento:** Identificar de forma proactiva a los empleados con alto riesgo de abandono para implementar planes de retención personalizados.
 * **Optimizar la Inversión:** Enfocar los recursos de RRHH en los perfiles de mayor impacto económico y mayor probabilidad de fuga.
 * **Mejorar el Clima Laboral:** Utilizar los insights sobre los motivos del abandono (ej. horas extra, bajo salario, puesto) para tomar decisiones estratégicas que mejoren las condiciones laborales.
-
